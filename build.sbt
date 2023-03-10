@@ -9,7 +9,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "ETL",
     libraryDependencies ++= Seq(
-      munit % Test,
+      scalatest % Test,
       scalaCsv,
     )
   )
